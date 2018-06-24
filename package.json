@@ -1,0 +1,31 @@
+{
+  "name": "pineapplol",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "run-s format",
+    "format": "prettier --list-different --write --ignore-path .gitignore '**/*.{js,ts,tsx}'"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "npm-run-all": "^4.1.3",
+    "prettier": "^1.13.5",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "@types/dotenv": "^4.0.3",
+    "@types/request": "^2.47.1",
+    "@types/request-promise-native": "^1.0.15",
+    "ask-sdk": "^2.0.7",
+    "dotenv": "^6.0.0",
+    "ence": "^0.2.0",
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "prettier": {
+    "tabWidth": 4,
+    "trailingComma": "all",
+    "bracketSpacing": false,
+    "arrowParens": "always"
+  }
+}
